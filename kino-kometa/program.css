@@ -1,0 +1,203 @@
+@media screen and (max-width: 900px) {
+
+    #container  {
+        width: fit-content;
+}
+}
+
+#dny {
+    margin-left: 2.25em;
+}
+.dny {
+    width: 1000px;
+}
+
+#filmy1 {
+    background-color: hsl(51, 100%, 30%);
+    margin-top: .5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 922px;
+    color: white;
+    display: block;
+}
+
+#filmy1 img {
+    width: 60px;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+#filmy2 {
+    background-color: rgb(200, 173, 20);
+    margin-top: .5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 922px;
+    color: white;
+    display: none;
+}
+
+#filmy2 img {
+    width: 60px;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+
+
+.tentotyden {
+    width: 130px;
+    color: white;
+    height: 40px;
+}
+
+.dny td:first-child {
+    width: 290px;
+    text-align: center;
+}
+
+.dny td {
+    width: 86px;
+    text-align: center;
+}
+
+td {
+    table-layout:fixed;
+}
+
+th {
+    text-align: left;
+}
+td.film {
+    width: 290px;
+}
+.film-info {
+    margin-left: 5em;
+    margin-top: 1em;
+    text-align: left;
+}
+.film-info span {
+    vertical-align: middle;
+}
+.filmy td {
+    width: 88px;
+    text-align: center;
+}
+.filmy td:first-child {
+    width: 150px;
+}
+#filmy1 table {
+    border: 1px solid  hsl(51, 100%, 15%);
+    border-collapse: collapse;
+    
+}
+#filmy2 table {
+    border: 1px solid  hsl(51, 100%, 15%);
+    border-collapse: collapse;
+}
+
+
+#filmy1 table, #filmy1 th, #filmy1 td  {
+    border-bottom: 1px solid hsl(51, 100%, 15%);
+    border-radius: 922px;
+    border-collapse: collapse;
+}
+#filmy2 table, #filmy2 th, #filmy2 td  {
+    border-bottom: 1px solid hsl(51, 100%, 15%);
+    border-radius: 922px;
+    border-collapse: collapse;
+}
+
+.pristupnout {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    
+}
+.pristupnost-text {
+    visibility: hidden;
+    width: 120px;
+    text-align: center;
+    color: hsl(0, 0%, 25%);
+}
+
+.pristupnost:hover .pristupnost-text {
+    visibility: visible;
+}
+.zneni, .pristupnost {
+    color: hsl(0, 0%, 85%);
+    font-size: 14px;
+}
+.film-info .nazevfilmu {
+    text-decoration: none;
+    color: white;
+}
+.film-info .nazevfilmu:hover{
+    text-decoration: underline;
+}
+#tlacitka {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1em;
+}
+#tlacitka2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#tlacitka button {
+    background-color: rgb(223, 197, 53);
+    border-color: rgb(223, 197, 53);
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#tlacitka2 button {
+    background-color: rgb(223, 197, 53);
+    border-color: rgb(223, 197, 53);
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+table #tlacitka #tlacitka2 {
+    position: relative;
+    justify-content: left;
+}
+
+#tlacitka {
+    display: block;
+}
+
+#tlacitka2 {
+    display: none;
+}
+
+h2 {
+    text-align: left !important
+}
+.mezera {
+    width: 800px;
+}
+
+.hr { 
+    border: 0; border-top: 2px solid hsl(0, 1%, 13%); margin-top: -1.5em; margin-bottom: 1em;
+}
+.dva {
+    display: block;
+    margin-bottom: .4em;
+}
+
+.tri {
+    display: block;
+    margin-bottom: .3em;
+}

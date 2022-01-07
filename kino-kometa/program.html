@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ondřej Foltín">
+    <title>Kino Kometa - Program</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="program.css">
+    <link rel="shortcut icon" href="obrazky/kometa-ikona.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="galerie.js"></script>
+</head>
+<body>
+    <div id="hlavicka">
+        <header>
+            <div id="logo">
+                <img class="logo-obrazek" src="obrazky/logo2BIG.png" alt="">
+            </div>
+        </header>
+        <nav>
+            <div class="navigace">
+                <a href="index.html"><i class="fa fa-fw fa-home"></i>Domů</a>
+                <a class ="active" href="program.html">Program</a>
+                <a href="filmy.html">Filmy</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+    <div id="container">
+    <main>
+        <table id="tlacitka">
+            <tr>
+                <td>
+                    <h2 class="program">Program</h2>
+                </td>
+                <td class="mezera"></td>
+                <td class="tentotyden">13.12. - 19.12.</td>
+                <td>
+                    <div class="tento"><button onclick="myFunction3()">Tento týden</button></div>
+                </td>
+                <td>
+                    <div class="pristi"><button onclick="myFunction4()">Příští týden</button></div>
+                </td>
+            </tr>
+        </table>
+        <table id="tlacitka2">
+            <tr>
+                <td>
+                    <h2 class="program">Program</h2>
+                </td>
+                <td class="mezera"></td>
+                <td class="tentotyden">20.12. - 26.12.</td>
+                <td>
+                    <div class="tento"><button onclick="myFunction3()">Tento týden</button></div>
+                </td>
+                <td>
+                    <div class="pristi"><button onclick="myFunction4()">Příští týden</button></div>
+                </td>
+            </tr>
+        </table>
+        <hr class="hr">
+        <div id="dny">
+            <table>
+                <tr class="dny">
+                    <td class="second">Film</td>
+                    <td>Pondělí</td>
+                    <td>Úterý</td>
+                    <td>Středa</td>
+                    <td>Čtvrtek</td>
+                    <td>Pátek</td>
+                    <td>Sobota</td>
+                    <td>Neděle</td>
+                </tr>
+            </table>
+        </div>
+            <div id="filmy1">
+            <table>
+                <tr class="filmy">
+                    <td class="film">
+                        <div class="plakat">
+                            <img src="plakaty/matrix4.jpg" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="matrix.html"><span class="nazevfilmu">Matrix Resurrections<br></span></a>
+                            <span class="info">
+                            <span class="zneni">TITULKY &nbsp;&nbsp;</span>
+                            <span class="pristupnost">12+
+                                <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                            </span>
+                        </span>
+                        </div>
+                    </td>
+                    <td>19:00</td>
+                    <td>19:00</td>
+                    <td>19:30</td>
+                    <td>19:00</td>
+                    <td>19:00</td>
+                    <td>20:00</td>
+                    <td>20:00</td>
+                </tr>
+                <!-- TENTO TÝDEN -->
+                <tr class="filmy">
+                    <td class="film">
+                        <div class="plakat">
+                            <img src="plakaty/spider-man_nwh_doctor_strange_mj_small.jpg" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="spiderman.html"><span class="nazevfilmu">Spider-Man: Bez domova</span></a>
+                            <span class="info">
+                            <span class="zneni">DABING &nbsp;&nbsp;</span>
+                            <span class="pristupnost">12+
+                                <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                            </span>
+                        </span>
+                        </div>
+                    </td>
+                    <td><span class="dva">15:45 <br></span><span class="tri">17:50</span></td>
+                    <td><span class="dva">15:45 <br></span><span class="tri">17:50</span></td>
+                    <td><span class="dva">15:45 <br></span><span class="tri">17:50</span></td>
+                    <td><span class="dva">15:45 <br></span><span class="tri">17:50</span></td>
+                    <td><span class="dva">15:45 <br></span><span class="tri">17:50</span></td>
+                    <td><span class="tri">14:10 <br></span><span class="tri">15:45 <br></span><span>17:20</span></td>
+                    <td><span class="tri">14:10 <br></span><span class="tri">15:45 <br></span><span>17:20</span></td>
+                </tr>
+                <tr class="filmy">
+                    <td class="film">
+                        <div class="plakat">
+                            <img src="plakaty/spider-man_nwh_doctor_strange_mj_small.jpg" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="spiderman.html"><span class="nazevfilmu">Spider-Man: Bez domova</span></a>
+                            <span class="info">
+                            <span class="zneni">TITULKY &nbsp;&nbsp;</span>
+                            <span class="pristupnost">12+
+                                <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                            </span>
+                        </span>
+                        </div>
+                    </td>
+                    <td>18:00</td>
+                    <td>18:20</td>
+                    <td>18:20</td>
+                    <td>18:00</td>
+                    <td>18:45</td>
+                    <td>19:50</td>
+                    <td>19:50</td>
+                </tr>
+                <tr class="filmy">
+                    <td class="film">
+                        <div class="plakat">
+                            <img src="plakaty/encanto.jpg" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="encanto.html"><span class="nazevfilmu">Encanto<br></span></a>
+                            <span class="info">
+                            <span class="zneni">DABING &nbsp;&nbsp;</span>
+                            <span class="pristupnost">P
+                                <span class="pristupnost-text"><br>Mládeži přístupný</span>
+                            </span>
+                        </span>
+                        </div>
+                    </td>
+                    <td>13:20</td>
+                    <td>13:20</td>
+                    <td>13:20</td>
+                    <td>13:20</td>
+                    <td>13:20</td>
+                    <td><span class="dva">11:30 <br></span><span>14:00</span></td>
+                    <td><span class="dva">11:00 <br></span><span>13:20</span></td>
+                </tr>
+                <tr>
+                    <td class="film">
+                        <div class="plakat">
+                            <img src="plakaty/eternals1.png" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="eternals.html"><span class="nazevfilmu">Eternals<br></span></a>
+                            <span class="info">
+                            <span class="zneni">DABING &nbsp;&nbsp;</span>
+                            <span class="pristupnost">12+
+                                <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                            </span>
+                        </span>
+                        </div>
+                    </td>
+                    <td>18:00</td>
+                    <td>18:00</td>
+                    <td>17:30</td>
+                    <td>18:20</td>
+                    <td>17:45</td>
+                    <td>18:00</td>
+                    <td>18:00</td>
+                </tr>
+            </table>
+            </div>
+            <!-- PŘÍŠTÍ TÝDEN -->
+            <div id="filmy2">
+                <table>
+                    <tr class="filmy">
+                        <td class="film">
+                            <div class="plakat">
+                                <img src="plakaty/matrix4.jpg" alt="">
+                            </div>
+                            <div class="film-info">
+                                <a href="matrix.html"><span class="nazevfilmu">Matrix Resurrections<br></span></a>
+                                <span class="info">
+                                <span class="zneni">TITULKY &nbsp;&nbsp;</span>
+                                <span class="pristupnost">12+
+                                    <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                                </span>
+                            </span>
+                            </div>
+                        </td>
+                        <td>19:45</td>
+                        <td>19:45</td>
+                        <td>19:30</td>
+                        <td>19:30</td>
+                        <td>-</td>
+                        <td>20:20</td>
+                        <td>20:20</td>
+                    </tr>
+                    <tr class="filmy">
+                        <td class="film">
+                            <div class="plakat">
+                                <img src="plakaty/spider-man_nwh_doctor_strange_mj_small.jpg" alt="">
+                            </div>
+                            <div class="film-info">
+                                <a href="spiderman.html"><span class="nazevfilmu">Spider-Man: Bez domova</span></a>
+                                <span class="info">
+                                <span class="zneni">DABING &nbsp;&nbsp;</span>
+                                <span class="pristupnost">12+
+                                    <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                                </span>
+                            </span>
+                            </div>
+                        </td>
+                        <td><span class="dva">14:45 <br></span><span class="tri">17:30</span></td>
+                        <td><span class="dva">14:45 <br></span><span class="tri">17:30</span></td>
+                        <td><span class="dva">14:45 <br></span><span class="tri">17:30</span></td>
+                        <td><span class="dva">14:45 <br></span><span class="tri">17:30</span></td>
+                        <td><span class="dva">- <br></span><span class="tri">-</span></td>
+                        <td><span class="tri">13:45 <br></span><span class="tri">16:30 <br></span><span>19:00</span></td>
+                        <td><span class="tri">13:45 <br></span><span class="tri">16:30 <br></span><span>19:00</span></td>
+                    </tr>
+                    <tr class="filmy">
+                        <td class="film">
+                            <div class="plakat">
+                                <img src="plakaty/spider-man_nwh_doctor_strange_mj_small.jpg" alt="">
+                            </div>
+                            <div class="film-info">
+                                <a href="spiderman.html"><span class="nazevfilmu">Spider-Man: Bez domova</span></a>
+                                <span class="info">
+                                <span class="zneni">TITULKY &nbsp;&nbsp;</span>
+                                <span class="pristupnost">12+
+                                    <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                                </span>
+                            </span>
+                            </div>
+                        </td>
+                        <td>13:00</td>
+                        <td>12:00</td>
+                        <td>13:30</td>
+                        <td>14:20</td>
+                        <td>-</td>
+                        <td>16:00</td>
+                        <td>17:00</td>
+                    </tr>
+                    <tr class="filmy">
+                        <td class="film">
+                            <div class="plakat">
+                                <img src="plakaty/encanto.jpg" alt="">
+                            </div>
+                            <div class="film-info">
+                                <a href="encanto.html"><span class="nazevfilmu">Encanto<br></span></a>
+                                <span class="info">
+                                <span class="zneni">DABING &nbsp;&nbsp;</span>
+                                <span class="pristupnost">P
+                                    <span class="pristupnost-text"><br>Mládeži přístupný</span>
+                                </span>
+                            </span>
+                            </div>
+                        </td>
+                        <td>12:20</td>
+                        <td>12:20</td>
+                        <td>12:20</td>
+                        <td>12:20</td>
+                        <td>-</td>
+                        <td><span class="dva">11:45 <br></span><span>13:30</span></td>
+                        <td><span class="dva">11:45 <br></span><span>13:45</span></td>
+                    </tr>
+                    <tr>
+                        <td class="film">
+                            <div class="plakat">
+                                <img src="plakaty/eternals1.png" alt="">
+                            </div>
+                            <div class="film-info">
+                                <a href="eternals.html"><span class="nazevfilmu">Eternals<br></span></a>
+                                <span class="info">
+                                <span class="zneni">DABING &nbsp;&nbsp;</span>
+                                <span class="pristupnost">12+
+                                    <span class="pristupnost-text"><br>Nevhodný mládeži do 12 let</span>
+                                </span>
+                            </span>
+                            </div>
+                        </td>
+                        <td>18:10</td>
+                        <td>18:10</td>
+                        <td>16:20</td>
+                        <td>18:10</td>
+                        <td>-</td>
+                        <td>18:15</td>
+                        <td>18:15</td>
+                    </tr>
+                </table>
+                </div>
+                
+    </main>
+    <footer>
+        <p>Tento web URČITĚ nebyl vizuálně inspirován stránkou jiného kina.</p>
+        <p>Veškerá podobnost je čistě náhodná.</p>
+        <b>Ondřej Foltín &copy; 2022</b>
+    </footer>
+    </div>
+</body>
+</html>

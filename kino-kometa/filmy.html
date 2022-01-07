@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ondřej Foltín">
+    <title>Kino Kometa - Filmy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="filmy.css">
+    <link rel="shortcut icon" href="obrazky/kometa-ikona.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="galerie.js"></script>
+</head>
+
+<body>
+    <div id="hlavicka">
+        <header>
+            <div id="logo">
+                <img class="logo-obrazek" src="obrazky/logo2BIG.png" alt="">
+            </div>
+        </header>
+        <nav>
+            <div class="navigace">
+                <a href="index.html"><i class="fa fa-fw fa-home"></i>Domů</a>
+                <a href="program.html">Program</a>
+                <a class="active" href="filmy.html">Filmy</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+    <div id="container">
+        <main>
+            <table class="tlacitka">
+                <tr>
+                    <td>
+                        <h2>Filmy</h2>
+                    </td>
+                    <td class="mezera"></td>
+                    <td>
+                        <div id="promitame"><button onclick="myFunction1()">Promítáme</button></div>
+                    </td>
+                    <td>
+                        <div id="nadchazejici"><button onclick="myFunction2()">Nadcházející</button></div>
+                    </td>
+                </tr>
+            </table>
+            <hr class="hr">
+            <div id="filmy1">
+                <h3>Promítáme</h3>
+                <table class="plakaty">
+                    <tr>
+                        <td><div class="plakatnik"><img class="plakat" src="plakaty/spider-man_nwh_doctor_strange_mj_small.jpg"
+                                alt="Spider-Man: Bez Domova"></div></td>
+                        <td class="mezerainfo"><a href="spiderman.html">
+                                <p class="nazev">Spider-Man: Bez domova</p>
+                            </a>
+                            <p class="info"><b>Premiéra:</b> &nbsp; 16.12.2021 <br><b>Režie:</b> &nbsp; John Watts<br>
+                                <b>Hrají:</b> &nbsp; Tom Holland, Benedict Cumberbatch,...
+                            </p>
+                            <p class="o-filmu">Vůbec poprvé ve filmové historii je odhalena totožnost Spider-Mana a náš
+                                dobrý soused
+                                již nedokáže oddělit svou zodpovědnost superhrdiny od běžného života, čímž se jeho
+                                nebližší ocitnou ve velkém nebezpečí. Spider-Man požádá Doctora Strange, aby mu
+                                pomohl...
+                            </p>
+                        </td>
+                        <td><img class="plakat" src="plakaty/eternals1.png" alt="Eternals"></td>
+                        <td class="mezerainfo"><a href="eternals.html">
+                                <p class="nazev">Eternals</p>
+                            </a>
+                            <p class="info"><b>Premiéra:</b> &nbsp;04.11.2021 <br><b>Režie:</b>&nbsp; Chloé Zhao<br>
+                                <b>Hrají:</b> &nbsp; Richard Madden, Angelina Jolie, Salma Hayek,,...
+                            </p>
+                            <p class="o-filmu">Snímek Eternals představí zcela nový tým superhrdinů filmového vesmíru
+                                Studií Marvel.
+                                Epický příběh se odehrává tisíce let a sleduje skupinu nesmrtelných hrdinů, kteří jsou
+                                nuceni vystoupit ze stínů, aby se opětovně spojili proti nejstaršímu nepříteli lidstva,
+                                Deviantům...</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img class="plakat" src="plakaty/matrix4.jpg" alt="Matrix Resurrections"></td>
+                        <td class="mezerainfo"><a href="matrix.html">
+                                <p class="nazev">Matrix Resurrections</p>
+                            </a>
+                            <p class="info"><b>Premiéra:</b> &nbsp; 23.12.2021 <br><b>Režie:</b> &nbsp; Lana
+                                Wachowski<br>
+                                <b>Hrají:</b> &nbsp; Keanu Reeves, Carrie-Anne Moss...
+                            </p>
+                            <p class="o-filmu">Již téměř dvacet let žije Neo (Keanu Reeves) zdánlivě poklidný život jako
+                                Thomas A.
+                                Anderson v San Franciscu. Navštěvuje terapeuta, který mu předepisuje modré pilulky.
+                                Potkává každý den Trinity (Carrie-Anne Moss), ale navzájem se nepoznávají. Jednoho dne
+                                narazí na Morphea, který mu nabídne červenou pilulku, aby znovu otevřel svou mysl
+                                Matrixu.</p>
+                        </td>
+                        <td><img class="plakat" src="plakaty/encanto.jpg" alt="Encanto"></td>
+                        <td class="mezerainfo"><a href="encanto.html">
+                                <p class="nazev">Encanto</p>
+                            </a>
+                            <p class="info"><b>Premiéra:</b> &nbsp; 25.11.2021 <br><b>Režie:</b> &nbsp; Jared Bush,
+                                Byron Howard, Charise Castro Smith<br>
+                                <b>Hrají:</b> &nbsp; Stephanie Beatriz, John Leguizamo,...
+                            </p>
+                            <p class="o-filmu">Film Encanto z dílny Walt Disney Animation Studios vypráví příběh
+                                neobyčejné rodiny
+                                Madrigalových. Madrigalovi žijí ukryti v kouzelném domě v pulzujícím městečku v
+                                kolumbijských horách, na podivuhodném a očarovaném místě zvaném Encanto. Kouzlo Encanto
+                                způsobilo, že každé dítě v rodině má jedinečný dar...</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="filmy2">
+                <h3>Nadcházející</h3>
+                <table class="plakaty">
+                    <tr>
+                        <td><img class="plakat" src="plakaty/morbius.jpg" alt="Morbius"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/693995-morbius/prehled/" target="_blank">
+                            <p class="nazev">Morbius</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 1.4.2022<br> <b>Žánr:</b>&nbsp; Akční / Horor / Sci-Fi / Thriller <br> <b>Rok
+                                    vzniku:</b>&nbsp; 2019
+                                <br><b>Režie:</b> &nbsp; Daniel Espinosa<br>
+                                <b>Hrají:</b> &nbsp; Jared Leto, Adria Arjona, Matt Smith, Jared Harris, Michael
+                                Keaton,...
+                            </p>
+                            <p class="o-filmu">Doktor Morbius trpí vzácnou a smrtelnou krevní chorobou. S úmyslem
+                                zachránit druhé, kterým hrozí stejný
+                                osud, se Michael rozhodne k zoufale riskantnímu činu. Zdánlivý úspěch přinese lék, který
+                                je však dost možná nebezpečnější než sama smrtelná choroba, neboť promění léčitele v
+                                lovce.
+                            </p>
+                        </td>
+                        <td><img class="plakat" src="plakaty/doctorstrange2.jpg" alt="Doctor Strange 2"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/749440-doctor-strange-v-mnohovesmiru-silenstvi/prehled/" target="_blank">
+                            <p class="nazev">Doctor Strange v mnohovesmíru šílenství</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 05.05.2022 <br> <b>Žánr:</b> &nbsp;
+                                Akční / Fantasy / Horor <br> <b>Rok vzniku:</b> &nbsp; 2021-22
+                                <br><b>Režie:</b>&nbsp; Sam Raimi<br>
+                                <b>Hrají:</b> &nbsp; Benedict Cumberbatch, Elizabeth Olsen, Benedict Wong, Xochitl
+                                Gomez,...
+                            </p>
+                            <p class="o-filmu">Dr. Stephen Strange sešle zakázané kouzlo, které otevře dveře do
+                                multivesmíru, včetně alternativní verze sebe sama, jehož hrozba pro lidstvo je příliš
+                                velká i pro spojené síly Strange Wonga a Wandy Maximoff.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img class="plakat" src="plakaty/uncharted.jpg" alt="Uncharted"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/285564-uncharted/prehled/" target="_blank">
+                            <p class="nazev">Uncharted</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 10.02.2022 <br> <b>Žánr:</b>&nbsp; Akční / Dobrodružný
+                                <br> <b>Rok vzniku:</b>&nbsp; 2020-21
+                                <br><b>Režie:</b> &nbsp; Ruben Fleischer<br>
+                                <b>Hrají:</b> &nbsp; Tom Holland, Bryan Cranston, Mark Wahlberg, Antonio Banderas, Tati
+                                Gabrielle,...
+                            </p>
+                            <p class="o-filmu">Potomek slavného hledače pokladů sira Francise Drakea, Nathan Drake,
+                                konečně našel stopu k prokleté zlaté sošce ze Zlatého města v El Doradu. Když se však
+                                vydá na cestu, za zády se mu náhle objeví zakeřní konkurenti.</p>
+                        </td>
+                        <td><img class="plakat" src="plakaty/batman.jpg" alt="The Batman"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/323329-the-batman/prehled/" target="_blank">
+                            <p class="nazev">The Batman</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 03.03.2022 <br> <b>Žánr:</b>&nbsp; Akční / Drama / Krimi
+                                <br> <b>Rok vzniku:</b>&nbsp;2020-21
+                                <br><b>Režie:</b> &nbsp; Matt Reeves<br>
+                                <b>Hrají:</b> &nbsp; Robert Pattinson, Zoë Kravitz, Paul Dano, Jeffrey Wright, Colin
+                                Farrell,...
+                            </p>
+                            <p class="o-filmu">Ve svém druhém roce boje se zločinem Batman odhaluje korupci v Gotham
+                                City, která se spojuje s jeho vlastní rodinou, zatímco čelí sériovému vrahovi známému
+                                jako Riddler.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img class="plakat" src="plakaty/jurskysvet.jpg" alt="Jurský svět: Nadvláda"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/599942-jursky-svet-nadvlada/prehled/" target="_blank">
+                            <p class="nazev">Jurský svět: Nadvláda</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 09.06.2022 <br> <b>Žánr:</b>&nbsp; Akční / Dobrodružný / Sci-Fi
+                                <br> <b>Rok vzniku:</b>&nbsp; 2020-21
+                                <br><b>Režie:</b> &nbsp; Colin Trevorrow<br>
+                                <b>Hrají:</b> &nbsp; Bryce Dallas Howard, Chris Pratt, Jake Johnson, Laura Dern, Sam
+                                Neill,...
+                            </p>
+                            <p class="o-filmu">Dinosauří a lidská civilizace se konečně střetly. Zdá se, že místo na
+                                planetě Zemi je jen pro jeden druh. Velkolepé vyvrcholení ságy, která začala v Jurském
+                                parku Stevena Spielberga.</p>
+                        </td>
+                        <td><img class="plakat" src="plakaty/acrossthespiderverse.jpg"
+                                alt="Spider-Man: Across the Spider-Verse - Part One"></td>
+                        <td class="mezerainfo"><a href="https://www.csfd.cz/film/792366-spider-man-across-the-spider-verse-part-one/videa/ukazky-z-filmu/" target="_blank">
+                            <p class="nazev">Spider-Man: Across the Spider-Verse - Part One</p>
+                        </a>
+                            <p class="info"><b>V kinech od:</b> &nbsp; 27.10.2022 <br><b>Žánr:</b>&nbsp; Akční / Drama / Krimi
+                                <br> <b>Rok vzniku:</b>&nbsp;2020-21
+                                <br><b>Režie:</b> &nbsp; Joaquim Dos Santos, Kemp Powers, Justin Thompson<br>
+                                <b>Hrají:</b> &nbsp; Shameik Moore, Hailee Steinfeld, Oscar Isaac, Issa Rae, Jake
+                                Johnson,...
+                            </p>
+                            <p class="o-filmu">Miles Morales vrací v další kapitole Spider-Verse ságy. Čeká na něj
+                                epické dobrodružství, které přátelského souseda Spider-Mana transportuje z Brooklynu
+                                napříč mnohovesmírem, aby pomohl Gwen Stacey a nové skupině Spider-lidí proti padouchovi
+                                silnějšímu než cokoliv, proti čemu se v minulosti postavili.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>Tento web URČITĚ nebyl vizuálně inspirován stránkou jiného kina.</p>
+            <p>Veškerá podobnost je čistě náhodná.</p>
+            <b>Ondřej Foltín &copy; 2022</b>
+        </footer>
+    </div>
+</body>
+
+</html>

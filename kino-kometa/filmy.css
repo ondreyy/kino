@@ -1,0 +1,89 @@
+.plakat {
+    height: 314px;
+}
+.plakatnik {
+    vertical-align: top;
+}
+
+h2 {
+    text-align: left !important
+}
+
+table {
+    position: relative;
+    justify-content: left;
+}
+
+.mezera {
+    width: 800px;
+}
+
+.tlacitka {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1em;
+}
+.tlacitka button {
+    background-color: rgb(223, 197, 53);
+    border-color: rgb(223, 197, 53);
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#filmy1 {
+    text-align: center;
+    display: block;
+}
+
+
+#filmy2 {
+    text-align: center;
+    display: none;
+}
+
+.mezerainfo {
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
+}
+.mezerainfo img {
+    vertical-align: top;
+}
+.mezerainfo .nazev {
+    font-size:1.25em; 
+    color: white;
+    text-decoration: underline;
+    margin-bottom: -.5em;
+}
+.mezerainfo p {
+    margin-left: .5em;
+}
+
+.mezerainfo a:hover {
+    text-decoration: none;
+}
+
+.hr { 
+    border: 0; border-top: 2px solid hsl(0, 1%, 13%); margin-top: -1.5em; margin-bottom: 1em;
+}
+
+.plakaty p:hover {
+    text-decoration: none;
+}
+h3 {
+    text-align: left;
+}
+
+.info {
+    color:hsl(0, 0%, 45%);
+    font-size: 0.9em;
+    margin-top: 1.5em;
+}
+
+.o-filmu {
+    font-size: 14px;
+    margin-right: 1.5em;
+}

@@ -1,0 +1,150 @@
+.o-filmu p:first-child{
+    font-size:1.75em; 
+    color: white;
+    font-weight: 600;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+  
+.row {
+    display: flex;
+  }
+  
+.left {
+    margin-left: -1em;
+    width: 250px;
+    text-align: center;
+    background-color: hsl(0, 1%, 10%);
+    position: relative;
+    height: auto;
+}
+
+.right {
+    width: 75%;
+    margin-left: 1em;
+    position: relative;
+    margin-top: -1em;
+}
+.right img {
+    position: relative;
+}
+
+#csfd {
+    width: 75%;
+    margin-top: .5em;
+}
+
+#spoiler {
+    color:hsl(0, 1%, 10%);
+    transition: .5s ease;
+    opacity: 100;
+    position:absolute;
+    margin-top: 0.5em
+}
+
+#spoiler:hover {
+    color:hsl(0, 1%, 30%);
+}
+
+.nazevfilmu {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.750);
+}
+.podtext {
+    margin-top: -1.25em;
+    margin-left: 1em;
+    color: hsl(0, 0%, 85%);
+}
+
+.popis {
+    margin-top: 2em;
+    color: hsl(0, 1%, 70%);
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.poster {
+    margin-top: 1em;
+    width: 90%;
+}
+hr { 
+    border: 0; border-top: 2px solid hsl(0, 1%, 13%); margin-left: -1em; margin-bottom: 0;
+}
+
+.vl {
+    border-left: 2px solid hsl(0, 1%, 13%);
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.trailer iframe{
+    width: 560px; 
+    height: 315px;
+    margin-bottom: 0.5em;
+}
+.trailer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.detaily {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 1em;
+}
+.mezera {
+    width: 18px;
+}
+
+table {
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+}
+
+th {
+    line-height: 16px;
+    padding: 10px 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+
+.galerie img {
+    width: 100%;
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+}
+#myDIV {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+}
+#myDIV img {
+    width: 100%;
+    margin-bottom: .5em;
+}
+#nacist {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+#nacist button {
+    background-color: grey;
+    border-color: grey;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
