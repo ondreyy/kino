@@ -1,1 +1,1 @@
-kino
+Kino Kometa | FIKTIVNÍ WEB
