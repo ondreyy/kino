@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ondřej Foltín">
+    <title>Kino Kometa - Filmy - Jan Žižka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="film.css">
+    <link rel="shortcut icon" href="obrazky/kometa-ikona.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="galerie.js"></script>
+    <script src="pozadi.js"></script>
+</head>
+
+<body>
+    <div id="hlavicka">
+        <header>
+            <div id="logo">
+                <img class="logo-obrazek" src="obrazky/logo2BIG.png" alt="">
+            </div>
+        </header>
+        <nav>
+            <div class="navigace">
+                <a href="index.html"><i class="fa fa-fw fa-home"></i>Domů</a>
+                <a href="program.html">Program</a>
+                <a class="active" href="filmy.html">Filmy</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+    <div id="container">
+        <main>
+            <h2>Detail filmu</h2>
+            <hr class="hr">
+            <div class="row">
+                <div class="column left">
+                    <img class="poster" src="plakaty/zizka2.jpg" alt="Žižka poster">
+                    <a href="https://www.csfd.cz/film/372834-jan-zizka/prehled" target="_blank"><img id="csfd"
+                            src="obrazky/csfd.svg" alt="ČSFD"></a>
+                    <div class="detaily">
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td class="mezera"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Rok vydání:</th>
+                                <td></td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <th>Žánr:</th>
+                                <td></td>
+                                <td>Životopisný / Historický / Drama / Akční</td>
+                            </tr>
+                            <tr>
+                                <th>Premiéra:</th>
+                                <td></td>
+                                <td>20.10.2022</td>
+                            </tr>
+                            <tr>
+                                <th>Délka:</th>
+                                <td></td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <th>Přístupnost:</th>
+                                <td></td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <th>Režie</th>
+                                <td></td>
+                                <td>Petr Jákl</td>
+                            </tr>
+                            <tr>
+                                <th>Obsazení</th>
+                                <td></td>
+                                <td> Ben Foster, <br> Michael Caine,<br> Til Schweiger,<br> William Moseley,<br> Sophie
+                                    Lowe,<br> Karel
+                                    Roden,<br> Roland Møller,<br> Matthew Goode,<br> Ondřej Vetchý,<br> Marek Vašut,<br>
+                                    Ben Cristovao,<br>
+                                    Aneta Kernová,<br> Denisa Pfauserová,<br> Bohuslav Hrdlička,<br> Daniel Vávra<br>...
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="vl"></div>
+                </div>
+                <div class="column right">
+                    <div class="o-filmu">
+                        <p class="nazevfilmu"><i>Jan Žižka</i></p>
+                        <p class="podtext">Medieval</p>
+                        <p class="popis">Film inspirovaný skutečným příběhem jednoho z největších vojevůdců své doby,
+                            nikdy neporaženým Janem Žižkou z Trocnova, který se stal díky svým činům legendou. Evropa na
+                            konci 14. století. Vše, co vybudoval Karel IV., císař římský a zároveň český král, se
+                            rozpadá. Staleté pořádky se otřásají v základech. Císařův prvorozený syn a nástupce Václav
+                            IV. je příliš slabým panovníkem do takové doby. Přední magnát v zemi, pan Jindřich z
+                            Rožmberka, pohlcuje dvorce svobodných zemanů jeden po druhém. Ale jeden z nich se mu
+                            postaví, jeho jméno je Jan Žižka.</p>
+                        <div class="trailer">
+                        </div>
+                        <div class="galerie">
+                            <p>Galerie</p>
+                            <img src="obrazky/zizka/163088543_feb4c2.jpg" alt="">
+                            <img src="obrazky/zizka/163088545_895528.jpg" alt="">
+                            <img src="obrazky/zizka/163088546_fc77eb.jpg" alt="">
+                            <img src="obrazky/zizka/163122405_8ceadc.jpg" alt="">
+                        </div>
+                        <div id="nacist">
+                            <button onclick="myFunction()">Načíst další</button>
+                        </div>
+                        <div id="myDIV">
+                            <img src="obrazky/zizka/163088551_97b978.jpg" alt="">
+                            <img src="obrazky/zizka/165777564_6eadec.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Tento web není nijak spojen se skutečnou službou. Jedná se fiktivní kino.</p>
+            <p><b>Ondřej Foltín &copy; 2021</b></p>
+        </footer>
+    </div>
+</body>
+
+</html>

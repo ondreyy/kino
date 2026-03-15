@@ -30,7 +30,7 @@
     position: relative;
 }
 #filmy2 {
-    background-color: rgb(200, 173, 20);
+    background-color: hsl(51, 100%, 30%);
     margin-top: .5em;
     text-align: center;
     margin-left: auto;
@@ -64,11 +64,11 @@
     text-align: center;
 }
 
-td {
+#filmy1 #filmy2 td {
     table-layout:fixed;
 }
 
-th {
+#filmy1 #filmy2 th {
     text-align: left;
 }
 td.film {
@@ -85,6 +85,7 @@ td.film {
 .filmy td {
     width: 88px;
     text-align: center;
+    
 }
 .filmy td:first-child {
     width: 150px;
@@ -200,4 +201,49 @@ h2 {
 .tri {
     display: block;
     margin-bottom: .3em;
+}
+#filmy1 #filmy2 table {
+    margin-bottom: 1em;
+}
+#legenda {
+    margin-left: 3em;
+    font-size: 14px;
+    /* margin-left: 25em; */
+}
+#legendanadpis {
+    margin-bottom: -0.75em;
+}
+#cenik-table {
+    border: solid 1px hsl(0, 1%, 13%);
+    margin-left: 2.25em;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgb(90, 146, 34);
+    
+}
+#cenik-table td{
+    padding: 1em;
+    border: solid 1px hsl(0, 1%, 13%);
+    border-collapse: collapse;
+    text-align: center;
+}
+#nazvy-vstupne {
+    background: rgb(66, 109, 24);
+}
+
+#cenik-table td {
+    width: 100px;
+}
+
+#legenda {
+    float: left;
+    font-size: 14px;
+    width: 400px;
+    margin-left: 5em;
+}
+
+#cenik {
+    overflow: hidden;
+    font-size: 14px;
 }

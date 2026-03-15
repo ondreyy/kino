@@ -1,3 +1,4 @@
+
 .o-filmu p:first-child{
     font-size:1.75em; 
     color: white;
@@ -42,11 +43,16 @@
     transition: .5s ease;
     opacity: 100;
     position:absolute;
-    margin-top: 0.5em
+    margin-top: -0.25em;
+    font-size: 13px;
 }
 
 #spoiler:hover {
     color:hsl(0, 1%, 30%);
+}
+
+#spoiler-obsazeni{
+    font-size: 13px;
 }
 
 .nazevfilmu {
